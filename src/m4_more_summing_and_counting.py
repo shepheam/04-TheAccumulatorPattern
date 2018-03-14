@@ -273,7 +273,10 @@ def run_test_count_cosines_from():
     print('       actual:  ', answer)
 
     #Test 6:
-
+    answer_from_oracle = count_cosines_from(3, 12, 0.15)
+    answer_from_my_code = count_cosines_from(3, 12, 0.15)
+    print('Test 6 expected (from oracle):', answer_from_oracle)
+    print('       actual (from my code): ', answer_from_my_code)
 
 def count_cosines_from(m, n, x):
     """
